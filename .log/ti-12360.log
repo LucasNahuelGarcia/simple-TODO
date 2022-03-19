@@ -1,0 +1,65 @@
+[16:41:26.706] Global cache location '/home/lucas/.cache/typescript/4.6', safe file path '/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[16:41:26.707] Processing cache location '/home/lucas/.cache/typescript/4.6'
+[16:41:26.707] Trying to find '/home/lucas/.cache/typescript/4.6/package.json'...
+[16:41:26.707] Loaded content of '/home/lucas/.cache/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.584"},"devDependencies":{"@types/basic-auth":"^1.1.3","@types/bcrypt":"^5.0.0","@types/body-parser":"^1.19.2","@types/connect":"^3.4.35","@types/connect-mongodb-session":"^2.4.2","@types/cookie":"^0.4.1","@types/cookie-session":"^2.0.44","@types/cookie-signature":"^1.0.4","@types/debug":"^4.1.7","@types/depd":"^1.1.32","@types/ee-first":"^1.1.0","@types/express":"^4.17.13","@types/express-session":"^1.17.4","@types/hashmap":"^2.3.1","@types/lodash.camelcase":"^4.3.6","@types/lodash.snakecase":"^4.1.6","@types/merge-descriptors":"^1.0.1","@types/morgan":"^1.9.3","@types/node":"^17.0.21","@types/on-finished":"^2.3.1","@types/on-headers":"^1.0.0","@types/parseurl":"^1.3.1","@types/random-bytes":"^1.0.1","@types/read":"^0.0.29","@types/serve-static":"^1.13.10","@types/uid-safe":"^2.1.2","@types/uuid":"^8.3.4"}}
+[16:41:26.707] Loaded content of '/home/lucas/.cache/typescript/4.6/package-lock.json'
+[16:41:26.715] Adding entry into typings cache: 'basic-auth' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/basic-auth/index.d.ts'
+[16:41:26.717] Adding entry into typings cache: 'bcrypt' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/bcrypt/index.d.ts'
+[16:41:26.718] Adding entry into typings cache: 'body-parser' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/body-parser/index.d.ts'
+[16:41:26.719] Adding entry into typings cache: 'connect' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/connect/index.d.ts'
+[16:41:26.720] Adding entry into typings cache: 'connect-mongodb-session' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/connect-mongodb-session/index.d.ts'
+[16:41:26.720] Adding entry into typings cache: 'cookie' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/cookie/index.d.ts'
+[16:41:26.721] Adding entry into typings cache: 'cookie-session' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/cookie-session/index.d.ts'
+[16:41:26.722] Adding entry into typings cache: 'cookie-signature' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/cookie-signature/index.d.ts'
+[16:41:26.723] Adding entry into typings cache: 'debug' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/debug/index.d.ts'
+[16:41:26.724] Adding entry into typings cache: 'depd' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/depd/index.d.ts'
+[16:41:26.725] Adding entry into typings cache: 'ee-first' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/ee-first/index.d.ts'
+[16:41:26.726] Adding entry into typings cache: 'express' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/express/index.d.ts'
+[16:41:26.727] Adding entry into typings cache: 'express-session' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/express-session/index.d.ts'
+[16:41:26.728] Adding entry into typings cache: 'hashmap' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/hashmap/index.d.ts'
+[16:41:26.729] Adding entry into typings cache: 'lodash.camelcase' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/lodash.camelcase/index.d.ts'
+[16:41:26.730] Adding entry into typings cache: 'lodash.snakecase' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/lodash.snakecase/index.d.ts'
+[16:41:26.730] Adding entry into typings cache: 'merge-descriptors' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/merge-descriptors/index.d.ts'
+[16:41:26.731] Adding entry into typings cache: 'morgan' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/morgan/index.d.ts'
+[16:41:26.734] Adding entry into typings cache: 'node' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/node/index.d.ts'
+[16:41:26.734] Adding entry into typings cache: 'on-finished' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/on-finished/index.d.ts'
+[16:41:26.735] Adding entry into typings cache: 'on-headers' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/on-headers/index.d.ts'
+[16:41:26.736] Adding entry into typings cache: 'parseurl' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/parseurl/index.d.ts'
+[16:41:26.736] Adding entry into typings cache: 'random-bytes' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/random-bytes/index.d.ts'
+[16:41:26.737] Adding entry into typings cache: 'read' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/read/index.d.ts'
+[16:41:26.737] Adding entry into typings cache: 'serve-static' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/serve-static/index.d.ts'
+[16:41:26.738] Adding entry into typings cache: 'uid-safe' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/uid-safe/index.d.ts'
+[16:41:26.738] Adding entry into typings cache: 'uuid' => '/home/lucas/.cache/typescript/4.6/node_modules/@types/uuid/index.d.ts'
+[16:41:26.738] Finished processing cache location '/home/lucas/.cache/typescript/4.6'
+[16:41:26.738] Process id: 12367
+[16:41:26.738] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[16:41:26.738] validateDefaultNpmLocation: false
+[16:41:26.739] Npm config file: /home/lucas/.cache/typescript/4.6/package.json
+[16:41:26.739] Updating types-registry npm package...
+[16:41:26.739] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[16:41:29.014]     Succeeded. stdout:
+    
+    up to date, audited 42 packages in 2s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[16:41:29.014] Updated types-registry npm package
+[16:41:31.432] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/lucas/Documentos/proyectos/portfolio/simple-todo/src/views/login/login.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/lucas/Documentos/proyectos/portfolio/simple-todo/src/views/login","kind":"discover"}
+[16:41:31.445] Loaded safelist from types map file '/home/lucas/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[16:41:31.446] Explicitly included types: []
+[16:41:31.447] Inferred typings from unresolved imports: []
+[16:41:31.447] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/lucas/Documentos/proyectos/portfolio/simple-todo/src/views/login/bower_components","/home/lucas/Documentos/proyectos/portfolio/simple-todo/src/views/login/node_modules"]}
+[16:41:31.447] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/lucas/Documentos/proyectos/portfolio/simple-todo/src/views/login/bower_components","/home/lucas/Documentos/proyectos/portfolio/simple-todo/src/views/login/node_modules"]}
+[16:41:31.448] DirectoryWatcher:: Added:: WatchInfo: /home/lucas/Documentos/proyectos/portfolio/simple-todo/src/views/login/bower_components
+[16:41:31.448] DirectoryWatcher:: Added:: WatchInfo: /home/lucas/Documentos/proyectos/portfolio/simple-todo/src/views/login/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:41:31.450] Elapsed:: 1.5601910008117557ms DirectoryWatcher:: Added:: WatchInfo: /home/lucas/Documentos/proyectos/portfolio/simple-todo/src/views/login/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:41:31.450] DirectoryWatcher:: Added:: WatchInfo: /home/lucas/Documentos/proyectos/portfolio/simple-todo/src/views/login/node_modules
+[16:41:31.450] DirectoryWatcher:: Added:: WatchInfo: /home/lucas/Documentos/proyectos/portfolio/simple-todo/src/views/login/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:41:31.450] Elapsed:: 0.11386900022625923ms DirectoryWatcher:: Added:: WatchInfo: /home/lucas/Documentos/proyectos/portfolio/simple-todo/src/views/login/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[16:41:31.450] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[16:41:31.451] Response has been sent.
+[16:41:31.451] No new typings were requested as a result of typings discovery
