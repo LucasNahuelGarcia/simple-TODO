@@ -1,5 +1,5 @@
 if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').config({ path: __dirname + '/.env' })
+  require('dotenv').config({ path: __dirname + '/.env' })
 }
 
 //dependencias
@@ -17,12 +17,13 @@ app.use(morgan('tiny'));
 app.use("/api/product", product)
 
 app.listen(PORT_APP, () => {
-    console.log("Servidor iniciado en " + PORT_APP);
+  console.log("Servidor iniciado en " + PORT_APP);
 });
 
 // if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../client', 'build')));
-  app.get('/*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client', 'build', 'index.html'));
-  })
+app.use(express.static(path.join(__dirname, '../client', 'build')));
+app.get('/*', (req, res) => {
+  const defaultPageRoute = path.join(__dirname, '../client', 'build', 'index.html');
+  res.send(defaultPageRoute);
+})
 // }
