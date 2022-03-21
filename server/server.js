@@ -24,6 +24,6 @@ app.listen(PORT_APP, () => {
 app.use(express.static(path.join(__dirname, '../client', 'build')));
 app.get('/*', (req, res) => {
   const defaultPageRoute = path.join(__dirname, '../client', 'build', 'index.html');
-  res.send(defaultPageRoute);
+  res.sendFile(defaultPageRoute);
 })
 // }
