@@ -1,16 +1,8 @@
 .TodoCard {
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 1px 1px 2px black;
     padding: 15px;
 }
 
-.TodoCard:hover {
-    box-shadow: 1px 1px 7px black;
-}
-
-.TodoCard h1 {
-    font-size: 34px;
+.todoTitle {
     font-weight: bolder;
     margin: 0px;
 }

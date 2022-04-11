@@ -1,38 +1,42 @@
 import React, { Component } from 'react';
-// import './App.css';
 import TodoList from './TodoList';
-import AppBar from './AppBar';
+import Typography from '@mui/material/Typography';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import AddIcon from '@mui/icons-material/Add';
+import AppBar from '@mui/material/AppBar';
+import './maxWidth.css';
+// import AppBar from './AppBar';
 
 class App extends Component {
-    state = {
-        data: null
-    };
-
-    componentDidMount() {
-        this.callBackendAPI()
-            .then(res => this.setState({ data: res.express }))
-            .catch(err => console.log(err));
-    }
-
-    callBackendAPI = async () => {
-        const response = await fetch("/express_backend");
-        const body = await response.json();
-
-        if (response.status !== 200)
-            throw Error(body.message);
-
-        return body;
-    }
-
-
     render() {
+        function handleAddTodo() {
+            alert('clicked');
+        }
         return (
             <div className="App">
-                <header className="App-header">
-                  <AppBar/>
-                  <TodoList/>
-                </header>
-                <p className="App-intro">{this.state.data}</p>
+                <AppBar position="static">
+                    <div className='maxWidth'>
+                        <Toolbar>
+                            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                                TODO
+                            </Typography>
+                            <div className='expand'/>
+                            <IconButton
+                                size="large"
+                                aria-label="Add another TODO"
+                                edge="end"
+                                color="inherit"
+                                onClick={handleAddTodo}                        >
+                                <AddIcon />
+                            </IconButton>
+                        </Toolbar>
+                    </div>
+                </AppBar>
+
+                <div className='maxWidth'>
+                    <TodoList />
+                </div>
             </div>
         );
     }
